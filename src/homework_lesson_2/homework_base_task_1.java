@@ -4,9 +4,9 @@ public class homework_base_task_1 {
     public static void main(String[] args) {
         // Базовая домашка
         // Задача № 1
-        float growth = 1.68F;
-        float weight = 51.35F;
-        float bmi = weight / (growth * growth);
+        double growth = 1.68;
+        double weight = 51.35;
+        double bmi = weight / (growth * growth);
         System.out.println(bmi);
     }
 }
